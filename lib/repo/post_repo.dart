@@ -13,7 +13,7 @@ class  PostRepo{
         return body.map((e){
           return PostModels(
             postId: e['postId'],
-            email: e['title'] as String,
+            email: e['email'] as String,
             body: e['body'] as String,
           );
         }).toList();
